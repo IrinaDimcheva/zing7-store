@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import plugin from 'tailwindcss/plugin';
 
 const config: Config = {
   content: [
@@ -35,6 +36,51 @@ const config: Config = {
       wide: '1440px',
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addComponents }) {
+      addComponents({
+        '.headline-h1': {
+          fontSize: '56px',
+          font: 'rubik',
+          fontStyle: 'normal',
+          fontWeight: '500',
+          lineHeight: '72px',
+          letterSpacing: '0.2px',
+        },
+        '.headline-h2': {
+          fontSize: '36px',
+          font: 'rubik',
+          fontStyle: 'normal',
+          fontWeight: '500',
+          lineHeight: '52px',
+          letterSpacing: '0.2px',
+        },
+        '.headline-h3': {
+          fontSize: '28px',
+          font: 'rubik',
+          fontStyle: 'normal',
+          fontWeight: '500',
+          lineHeight: '44px',
+          letterSpacing: '0.2px',
+        },
+        '.headline-h4': {
+          fontSize: '22px',
+          font: 'rubik',
+          fontStyle: 'normal',
+          fontWeight: '500',
+          lineHeight: '30px',
+          letterSpacing: '0.2px',
+        },
+        '.headline-h5': {
+          fontSize: '18px',
+          font: 'rubik',
+          fontStyle: 'normal',
+          fontWeight: '500',
+          lineHeight: '20px',
+          letterSpacing: '0.2px',
+        },
+      });
+    }),
+  ],
 };
 export default config;

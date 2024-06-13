@@ -43,11 +43,7 @@ export default function Header() {
       <Divider />
       <div className="max-w-screen-fit mx-auto pt-4 pb-8 flex items-center justify-between">
         <div className="flex gap-20">
-          <p
-            className={`${rubik.className} text-[28px] font-medium leading-[44px] tracking-[0.2px]`}
-          >
-            STORE
-          </p>
+          <p className="headline-h3">STORE</p>
           <Search />
         </div>
         <div className="flex gap-8">

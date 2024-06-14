@@ -49,9 +49,9 @@ export default function Header() {
         <div className="flex gap-8">
           <nav>
             <ul className="flex gap-4">
-              <li className="w-[48px] h-[48px] p-3 rounded-full border-[1px] border-natural-9 relative">
+              <li className="flex justify-center items-center w-[48px] h-[48px] rounded-full border-[1px] border-natural-9 relative">
                 <Link href="#">
-                  <div className="text-center">
+                  <div>
                     <Image
                       src="./icons/cart.svg"
                       alt="cart"
@@ -64,9 +64,9 @@ export default function Header() {
                   3
                 </div>
               </li>
-              <li className="w-[48px] h-[48px] p-3 rounded-full border-[1px] border-natural-9">
+              <li className="flex justify-center items-center w-[48px] h-[48px] rounded-full border-[1px] border-natural-9">
                 <Link href="#">
-                  <div className="text-center">
+                  <div>
                     <Image
                       src="./icons/heart.svg"
                       alt="favorites"
@@ -76,9 +76,9 @@ export default function Header() {
                   </div>
                 </Link>
               </li>
-              <li className="w-[48px] h-[48px] p-3 rounded-full border-[1px] border-natural-9">
+              <li className="flex justify-center items-center w-[48px] h-[48px] rounded-full border-[1px] border-natural-9">
                 <Link href="#">
-                  <div className="text-center">
+                  <div>
                     <Image
                       src="./icons/account.svg"
                       alt="account"

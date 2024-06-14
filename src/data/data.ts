@@ -1,3 +1,5 @@
+import { title } from 'process';
+
 export const socialLinks = [
   {
     name: 'Facebook',
@@ -57,5 +59,28 @@ export const international = [
   {
     label: 'Bulgarian (BG)',
     value: 'bg',
+  },
+];
+
+export const benefits = [
+  {
+    title: 'Free Shipping',
+    description: 'Free delivery for all orders',
+    iconUrl: './icons/track.svg',
+  },
+  {
+    title: 'Money Guarantee',
+    description: '30 days money back',
+    iconUrl: './icons/money.svg',
+  },
+  {
+    title: '24/7 Support',
+    description: 'Friendly 24/7 support',
+    iconUrl: './icons/headphones.svg',
+  },
+  {
+    title: 'Secure Payment',
+    description: 'All cards accepted',
+    iconUrl: './icons/card.svg',
   },
 ];

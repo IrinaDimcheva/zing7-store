@@ -174,3 +174,126 @@ export const bestProducts = [
     imageUrl: '/images/speaker.jpg',
   },
 ];
+
+export const categories = [
+  {
+    id: 1,
+    name: 'Category Name',
+    description: '2,3k items',
+    iconUrl: './icons/phone.svg',
+  },
+  {
+    id: 2,
+    name: 'Category Name',
+    description: '2,3k items',
+    iconUrl: './icons/camera.svg',
+  },
+  {
+    id: 3,
+    name: 'Category Name',
+    description: '2,3k items',
+    iconUrl: './icons/monitor.svg',
+  },
+  {
+    id: 4,
+    name: 'Category Name',
+    description: '2,3k items',
+    iconUrl: './icons/safe.svg',
+  },
+  {
+    id: 5,
+    name: 'Category Name',
+    description: '2,3k items',
+    iconUrl: './icons/game.svg',
+  },
+  {
+    id: 6,
+    name: 'Category Name',
+    description: '2,3k items',
+    iconUrl: './icons/globe.svg',
+  },
+];
+
+export const products = [
+  {
+    id: 1,
+    category: 'Product list 1',
+    items: [
+      {
+        id: 11,
+        name: 'Popular items from cat 01',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: '/images/iphone.jpg',
+      },
+      {
+        id: 12,
+        name: 'Popular items from cat 01',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: '/images/iphone.jpg',
+      },
+      {
+        id: 13,
+        name: 'Popular items from cat 01',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: '/images/iphone.jpg',
+      },
+    ],
+  },
+  {
+    id: 2,
+    category: 'Product list 2',
+    items: [
+      {
+        id: 21,
+        name: 'Popular items from cat 02',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: '/images/shoe.png',
+      },
+      {
+        id: 22,
+        name: 'Popular items from cat 02',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: '/images/shoe.png',
+      },
+      {
+        id: 23,
+        name: 'Popular items from cat 02',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: '/images/shoe.png',
+      },
+    ],
+  },
+  {
+    id: 3,
+    category: 'Product list 3',
+    items: [
+      {
+        id: 31,
+        name: 'Popular items from cat 03',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: './images/yellow-turtleneck.svg',
+      },
+      {
+        id: 32,
+        name: 'Popular items from cat 03',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: './images/yellow-turtleneck.svg',
+      },
+      {
+        id: 33,
+        name: 'Popular items from cat 03',
+        price: '$1,725.00',
+        rating: '4,6',
+        imageUrl: './images/yellow-turtleneck.svg',
+      },
+    ],
+  },
+];

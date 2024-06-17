@@ -1,6 +1,8 @@
 import Benefits from './home/_components/benefits';
 import BestProducts from './home/_components/best-products';
+import Categories from './home/_components/categories';
 import Hero from './home/_components/hero';
+import Products from './home/_components/products';
 import Promo from './home/_components/promo';
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
       <Benefits />
       <BestProducts />
       <Promo />
+      <Categories />
+      <Products />
     </main>
   );
 }

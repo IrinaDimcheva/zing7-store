@@ -6,7 +6,7 @@ export default function Promo() {
   return (
     <>
       <section className="max-w-screen-fit mx-auto py-12">
-        <div className="bg-accent/15 p-2 rounded-lg flex items-center justify-around">
+        <div className="bg-accent/15 px-5 py-12 lg:py-2 rounded-lg flex flex-wrap gap-8 items-center justify-around">
           <div>
             <Image
               src="./images/lenovo.svg"

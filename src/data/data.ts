@@ -128,7 +128,8 @@ export const bestProducts = [
     price: '$1,725.00',
     rating: 5,
     // imageUrl: './images/beats-by-dre.svg',
-    imageUrl: './images/headphones.svg',
+    imageUrl: '/images/beats-by-dre.jpg',
+    // imageUrl: './images/headphones.svg',
   },
   {
     id: 5,

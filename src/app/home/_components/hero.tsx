@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="bg-natural-9">
-      <div className="max-w-screen-fit mx-auto flex items-center justify-between gap-12 py-20">
+    <section className="bg-natural-9 overflow-x-hidden">
+      <div className="max-w-screen-fit mx-auto flex items-center justify-between gap-12 px-5 lg:px-0 py-20">
         <div className="w-full flex flex-wrap justify-between items-center">
           <div className="w-[500px] flex flex-col gap-6">
             <p className="text-accent font-medium text-sm">SONY WH-H910N</p>

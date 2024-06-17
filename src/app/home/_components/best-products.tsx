@@ -4,7 +4,7 @@ import ProductCard from './product-card';
 
 export default function BestProducts() {
   return (
-    <section className="max-w-screen-fit mx-auto">
+    <section className="max-w-screen-fit mx-auto px-5 lg:px-0">
       <Divider />
       <div className="py-20">
         <div className="text-center pb-16">
@@ -13,8 +13,7 @@ export default function BestProducts() {
             Check our best seller products on Elma website right now
           </p>
         </div>
-        {/* <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"> */}
-        <ul className="flex gap-6 resize-none flex-wrap justify-between items-stretch">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {bestProducts.map((item) => (
             <ProductCard key={item.id} {...item} />
           ))}

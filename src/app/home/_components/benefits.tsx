@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Benefits() {
   return (
-    <section className="max-w-screen-fit mx-auto py-20">
+    <section className="max-w-screen-fit mx-auto py-20 px-5 lg:px-0">
       <ul className="flex flex-wrap justify-between gap-12">
         {benefits.map((item) => (
           <li

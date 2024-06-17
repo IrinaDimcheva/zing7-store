@@ -30,10 +30,10 @@ const config: Config = {
           10: '#F9FAFB',
         },
       },
-    },
-    screens: {
-      fit: '1110px',
-      wide: '1440px',
+      screens: {
+        fit: '1110px',
+        wide: '1440px',
+      },
     },
   },
   plugins: [

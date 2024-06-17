@@ -16,7 +16,7 @@ export default function Hero() {
               comfortable headphone. Long-lasting battery life plus quick
               charging keeps you listening for up to 35 hours since start.
             </p>
-            <div className="flex max-w-[320px] gap-4 pt-4 pb-12">
+            <div className="flex max-w-[340px] gap-4 pt-4 pb-12">
               <Button label="Buy Now" />
               <Button label="Learn More" type="outline" />
             </div>

@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="w-full flex flex-wrap justify-between items-center">
           <div className="w-[500px] flex flex-col gap-6">
             <p className="text-accent font-medium text-sm">SONY WH-H910N</p>
-            <h1 className="headline-h1 text-natural-1">
+            <h1 className="headline-h2 md:headline-h1 text-natural-1">
               Best in Hi-Res and Noise Cancelling
             </h1>
             <p className="leading-[28px] text-natural-7">

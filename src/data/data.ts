@@ -297,3 +297,30 @@ export const products = [
     ],
   },
 ];
+
+export const blogList = [
+  {
+    id: 1,
+    date: '07 July 2020',
+    title: 'Types of Blouse In Catalog fashion',
+    description:
+      'In order to discuss the general function of the logo, we must firstly identify and define the environment…',
+    imageUrl: './images/blog1.svg',
+  },
+  {
+    id: 2,
+    date: '08 July 2020',
+    title: 'Types of Blouse In Catalog fashion',
+    description:
+      'In order to discuss the general function of the logo, we must firstly identify and define the environment…',
+    imageUrl: './images/blog1.svg',
+  },
+  {
+    id: 3,
+    date: '09 July 2020',
+    title: 'Types of Blouse In Catalog fashion',
+    description:
+      'In order to discuss the general function of the logo, we must firstly identify and define the environment…',
+    imageUrl: './images/blog1.svg',
+  },
+];

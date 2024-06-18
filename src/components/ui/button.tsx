@@ -21,7 +21,7 @@ export default function Button({
           'bg-white border-natural-6 text-natural-6 hover:bg-natural-6 hover:text-white') ||
         (type === 'accent' &&
           'bg-accent border-accent text-white hover:bg-white hover:text-accent')
-      } flex justify-center items-center gap-2 w-full h-full px-8 py-4 font-medium rounded-md border-[1px] ${className}`}
+      } flex justify-center items-center gap-2 w-full h-full px-8 py-4 font-medium rounded-md border-[1px] leading-[22px] text-nowrap ${className}`}
     >
       {icon && (
         <span>

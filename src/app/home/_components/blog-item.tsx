@@ -24,7 +24,7 @@ export default function BlogItem({
           className="rounded-lg"
         />
       </div>
-      <div className="flex flex-col gap-4 text-[14px] leading-[20px] w-[350px]">
+      <div className="flex flex-col gap-4 text-[14px] leading-[20px] max-w-[350px]">
         <p className="text-primary-light">{date}</p>
         <h5 className="headline-h5 text-natural-1">{title}</h5>
         <p className="text-natural-7">{description}</p>

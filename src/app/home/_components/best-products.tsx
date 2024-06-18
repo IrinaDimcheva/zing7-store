@@ -6,7 +6,7 @@ export default function BestProducts() {
   return (
     <section className="max-w-screen-fit mx-auto px-5 lg:px-0">
       <Divider />
-      <div className="my-24 md:my-32">
+      <div className="my-24 md:mb-32">
         <div className="text-center pb-16">
           <h2 className="headline-h2 text-natural-1">Best Seller Products</h2>
           <p className="text-natural-7 leading-[22px]">

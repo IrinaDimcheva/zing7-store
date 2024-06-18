@@ -42,7 +42,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center w-[64px] h-[64px] rounded-full bg-white mr-[-64px]">
+        <div className="flex justify-center items-center w-[64px] h-[64px] rounded-full bg-white mr-[-64px] cursor-pointer">
           <Image
             src="./icons/next.svg"
             alt="next"

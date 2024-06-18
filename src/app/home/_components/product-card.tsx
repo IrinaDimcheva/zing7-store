@@ -1,5 +1,7 @@
 import Button from '@/components/ui/button';
 import Rating from '@/components/ui/rating';
+import SvgCartComponent from '@/components/ui/svg-cart-component';
+import SvgEyeComponent from '@/components/ui/svg-eye-component';
 import Image from 'next/image';
 
 type Product = {
@@ -65,17 +67,12 @@ export default function ProductCard({
       <div className=" pt-2">
         <div className="hidden pt-2 group-hover:relative group-hover:block">
           <div className="flex flex-col gap-2">
-            <Button
-              icon="./icons/cart.svg"
-              label="Add to cart"
-              className="py-2"
-            />
-            <Button
-              icon="./icons/eye.svg"
-              label="Quick view"
-              type="outline-gray"
-              className="py-2"
-            />
+            <button className="flex justify-center items-center gap-2 w-full h-full px-8 py-2 font-medium rounded-md border-[1px] leading-[22px] text-nowrap bg-primary border-primary text-white hover:bg-white  hover:text-primary hover:transition-all">
+              <SvgCartComponent /> Add to cart
+            </button>
+            <button className="flex justify-center items-center gap-2 w-full h-full px-8 py-2 font-medium rounded-md border-[1px] leading-[22px] text-nowrap bg-white border-natural-6 text-natural-6 hover:bg-natural-6 hover:text-white hover:transition-all">
+              <SvgEyeComponent /> Quick view
+            </button>
           </div>
         </div>
       </div>

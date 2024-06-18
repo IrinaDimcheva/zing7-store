@@ -324,3 +324,30 @@ export const blogList = [
     imageUrl: './images/blog1.svg',
   },
 ];
+
+export const brands = [
+  {
+    name: 'Asus',
+    logo: './icons/asus-logo.svg',
+  },
+  {
+    name: 'Redmi',
+    logo: './icons/mi-logo.svg',
+  },
+  {
+    name: 'Samsung',
+    logo: './icons/samsung-logo.svg',
+  },
+  {
+    name: 'Sony',
+    logo: './icons/sony-logo.svg',
+  },
+  {
+    name: 'Wacom',
+    logo: './icons/wacom-logo.svg',
+  },
+  {
+    name: 'Apple',
+    logo: './icons/apple-logo.svg',
+  },
+];

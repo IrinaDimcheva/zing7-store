@@ -49,7 +49,7 @@ export default function Brands() {
 
   return (
     <section className="max-w-screen-fit mx-auto py-8">
-      <div>
+      <div className="xl:pl-8">
         <Slider {...settings}>
           {brands.map(({ name, logo }) => (
             <div key={name}>

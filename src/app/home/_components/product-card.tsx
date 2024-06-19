@@ -25,7 +25,7 @@ export default function ProductCard({
   imageUrl,
 }: Product) {
   return (
-    <li className="group z-0 hover:z-[1000] hover:mb-[-95px] max-w-[360px] min-w-[255px] flex flex-col gap-4 px-5 py-4 hover:shadow-lg rounded-lg">
+    <li className="group z-0 hover:z-[1000] hover:mb-[-99px] max-w-[360px] min-w-[255px] flex flex-col gap-4 px-5 py-4 hover:shadow-lg rounded-lg">
       <div className="flex flex-col gap-6">
         <div className="flex justify-between items-center z-0">
           {onSale ? (
